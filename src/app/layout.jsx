@@ -2,6 +2,9 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const baseUrl = "https://gomaa.vercel.app"; // 👈 غيّرها حسب الدومين الحقيقي بتاعك
+
 export const metadata = {
   title: "Eng : Gomaa Shaban",
   description: "Gomaa Shaban : Web and Android Applications Programmer",
@@ -30,11 +33,13 @@ export const metadata = {
   openGraph: {
     title: "Eng : Gomaa Shaban",
     description: "Gomaa Shaban : Web and Android Applications Programmer",
+    url: baseUrl, // 👈 مهم
+    siteName: "Gomaa Shaban Portfolio",
     images: [
       {
-        url: "/og-image.png",
+        url: `${baseUrl}/og-image.png`, // 👈 هنا التعديل المهم
         width: 1200,
-        height: 1000,
+        height: 630, // الأفضل يكون 1200x630
         alt: "Eng : Gomaa Shaban",
       },
     ],
@@ -45,7 +50,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Eng : Gomaa Shaban",
     description: "Gomaa Shaban : Web and Android Applications Programmer",
-    images: ["/images/certificate2.png"],
+    images: [`${baseUrl}/og-image.png`], // 👈 خليها نفس الصورة المطلقة
   },
 };
 
