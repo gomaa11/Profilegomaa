@@ -32,7 +32,7 @@ export const metadata = {
     description: "Gomaa Shaban : Web and Android Applications Programmer",
     images: [
       {
-        url: "/images/certificate2.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Eng : Gomaa Shaban",
