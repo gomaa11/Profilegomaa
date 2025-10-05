@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Whatsapp from "../../../public/whatsapp.svg";
 import { Facebook } from "lucide-react";
+import { Instagram } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -61,14 +61,15 @@ const EmailSection = () => {
           <a href="https://github.com/gomaa11">
             <Image src={GithubIcon} alt="Github Icon" />
           </a>
-          <a href="">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
-          </a>
-          <a href="">
+
+          <a href="https://wa.me/201024754252">
             <Image src={Whatsapp} alt="Whatsapp Icon" />
           </a>
           <a href="https://www.facebook.com/gomaa252">
             <Facebook size={52} />
+          </a>
+          <a href="https://www.instagram.com/gomaa_552/">
+            <Instagram size={52} />
           </a>
         </div>
         <div className="text-[#ADB7BE] my-4 text-xl">01024754252</div>
