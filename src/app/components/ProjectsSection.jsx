@@ -22,10 +22,60 @@ const projectsData = [
 ✅ Apple-inspired configuration design
 ⌨️ 100% written in TypeScript
 🎁 ...much more`,
+    image: "/images/projects/webgomaa.png",
+    tag: ["All", "FUllStack", "BackEnd", "FrontEnd"],
+    gitUrl: "https://wa.me/201024754252",
+    previewUrl: "",
+  },
+  {
+    id: 2,
+    title: "Online booking",
+    description: `Features:
+    A complete system for booking clinic appointments, managing patients, and scheduling visits.`,
+    image: "/images/projects/dc11.png",
+    tag: ["All", "FUllStack", "BackEnd", "FrontEnd"],
+    gitUrl: "https://wa.me/201024754252",
+    previewUrl: "https://breadit-reddit-clone-mu.vercel.app",
+  },
+  {
+    id: 3,
+    title: "Online booking",
+    description: `Facilitate appointment booking online or through a screen inside the clinic.
+
+    Reduce waiting times and organize appointments.
+    
+    Provide an electronic record of visits (patient name, date, service, condition).
+    
+    Improve communication between doctor and patient (confirmation messages, appointment reminders).
+    
+    Provide statistics for doctors or management (number of daily appointments, active appointments, canceled appointments, etc.).`,
+    image: "/images/projects/dc22.png",
+    tag: ["All", "BackEnd"],
+    gitUrl: "https://wa.me/201024754252",
+    previewUrl: "#contact",
+  },
+
+  {
+    id: 1,
+    title: "caseCobra",
+    description: `Features:
+🛠️ Complete shop built from scratch in Next.js 14
+💻 Beautiful landing page included
+🎨 Custom artworks made by a professional illustrator
+💳 Secret admin dashboard to manage orders
+🖥️ Drag-and-drop file uploads
+🛍️ Customers can purchase directly from you
+🌟 Clean, modern UI on top of shadcn-ui
+🛒 Completely custom phone case configurator
+🔑 Authentication using Kinde
+✉️ Beautiful thank-you email after purchase
+✅ Apple-inspired configuration design
+⌨️ 100% written in TypeScript
+🎁 ...much more`,
     image: "/images/projects/caseCobra.png",
-    tag: ["All", "FUllStack","BackEnd","FrontEnd"],
-    gitUrl: "https://github.com/Abd-El-RahmanHemida/casecobra",
-    previewUrl: "https://casecobra-phi-lyart.vercel.app/",
+    tag: ["All", "FUllStack", "BackEnd", "FrontEnd"],
+    gitUrl: "https://wa.me/201024754252",
+    previewUrl: "",
   },
   {
     id: 2,
@@ -41,8 +91,8 @@ const projectsData = [
 📸 Image uploads & link previews
 💬 Full comment functionality with nested replies`,
     image: "/images/projects/breaddit.png",
-    tag: ["All", "FUllStack","BackEnd","FrontEnd"],
-    gitUrl: "https://github.com/Abd-El-RahmanHemida/breadit-reddit-clone",
+    tag: ["All", "FUllStack", "BackEnd", "FrontEnd"],
+    gitUrl: "https://wa.me/201024754252",
     previewUrl: "https://breadit-reddit-clone-mu.vercel.app",
   },
   {
@@ -58,8 +108,8 @@ const projectsData = [
     their web applications, while maintaining flexibility and speed.`,
     image: "/images/projects/ImageProcessing.png",
     tag: ["All", "BackEnd"],
-    gitUrl: "https://github.com/Abd-El-RahmanHemida/Image-Processing-API-udacity",
-    previewUrl: "https://github.com/Abd-El-RahmanHemida/Image-Processing-API-udacity",
+    gitUrl: "https://wa.me/201024754252",
+    previewUrl: "#contact",
   },
   {
     id: 4,
@@ -73,8 +123,8 @@ const projectsData = [
     Ideal for those who value simplicity, beauty, and sophistication in web design.`,
     image: "/images/projects/htmlCss.png",
     tag: ["All", "FrontEnd"],
-    gitUrl: "https://github.com/Abd-El-RahmanHemida/html-css-template",
-    previewUrl: "https://abd-el-rahmanhemida.github.io/html-css-template/",
+    gitUrl: "https://wa.me/201024754252",
+    previewUrl: "#contact",
   },
   {
     id: 5,
@@ -88,8 +138,8 @@ const projectsData = [
     looking to implement a classic memory game with a modern, polished touch!`,
     image: "/images/projects/memoryGame.png",
     tag: ["All", "FrontEnd"],
-    gitUrl: "https://github.com/Abd-El-RahmanHemida/Memory-game",
-    previewUrl: "https://abd-el-rahmanhemida.github.io/Memory-game/",
+    gitUrl: "https://wa.me/201024754252",
+    previewUrl: "#contact",
   },
   {
     id: 6,
@@ -104,8 +154,8 @@ const projectsData = [
     seamless integration with any frontend and third-party services.s`,
     image: "/images/projects/storeforntBackend.png",
     tag: ["All", "BackEnd"],
-    gitUrl: "https://github.com/Abd-El-RahmanHemida/storefornt-backend-udacity",
-    previewUrl: "https://github.com/Abd-El-RahmanHemida/storefornt-backend-udacity",
+    gitUrl: "https://wa.me/201024754252",
+    previewUrl: "#contact",
   },
   {
     id: 7,
@@ -120,8 +170,29 @@ const projectsData = [
    and responsive design, making them ideal for creating quiz apps with ease.`,
     image: "/images/projects/quizApp.png",
     tag: ["All", "FrontEnd"],
-    gitUrl: "https://github.com/Abd-El-RahmanHemida/Quiz-app",
-    previewUrl: "https://github.com/Abd-El-RahmanHemida/quiz-app-rebuild-nextjs",
+    gitUrl: "https://wa.me/201024754252",
+    previewUrl: "#contact",
+  },
+  {
+    id: 2,
+    title: "Epico",
+    description: `Features:
+🔄 This application is a free program that was created to facilitate pricing processes in specific departments within a pesticide company.`,
+    image: "/images/projects/epco.png",
+    tag: ["All", "FUllStack", "BackEnd", "FrontEnd"],
+    gitUrl: "https://wa.me/201024754252",
+    previewUrl: "#contact",
+  },
+  {
+    id: 2,
+    title: "Cash",
+    description: `Features:
+🔄 This application is a free program that saves money transfers via Vodafone Cash, saves all transactions, and provides clear reports to the user.
+`,
+    image: "/images/projects/cash.png",
+    tag: ["All", "FUllStack", "BackEnd", "FrontEnd"],
+    gitUrl: "https://wa.me/201024754252",
+    previewUrl: "#contact",
   },
 ];
 
@@ -151,29 +222,29 @@ const ProjectsSection = () => {
       </h2>
       <div className="text-white flex justify-center items-center gap-2 py-6 flex-col lg:flex-row">
         <div className="flex flex-row gap-2">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="All"
+            isSelected={tag === "All"}
+          />
 
-        <ProjectTag
-          onClick={handleTagChange}
-          name="FUllStack"
-          isSelected={tag === "FUllStack"}          
-        />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="FUllStack"
+            isSelected={tag === "FUllStack"}
+          />
         </div>
-        <div  className="flex flex-row gap-2">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="BackEnd"
-          isSelected={tag === "BackEnd"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="FrontEnd"
-          isSelected={tag === "FrontEnd"}
-        />
+        <div className="flex flex-row gap-2">
+          <ProjectTag
+            onClick={handleTagChange}
+            name="BackEnd"
+            isSelected={tag === "BackEnd"}
+          />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="FrontEnd"
+            isSelected={tag === "FrontEnd"}
+          />
         </div>
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
