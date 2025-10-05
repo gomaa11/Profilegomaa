@@ -17,7 +17,7 @@ export const metadata = {
       {
         url: "https://profilegomaa.vercel.app/og-image.png",
         width: 1200,
-        height: 630,
+        height: 1000,
         alt: "Eng : Gomaa Shaban",
         type: "image/png",
       },
