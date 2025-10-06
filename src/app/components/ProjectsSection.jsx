@@ -7,25 +7,20 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "caseCobra",
-    description: `Features:
-🛠️ Complete shop built from scratch in Next.js 14
-💻 Beautiful landing page included
-🎨 Custom artworks made by a professional illustrator
-💳 Secret admin dashboard to manage orders
-🖥️ Drag-and-drop file uploads
-🛍️ Customers can purchase directly from you
-🌟 Clean, modern UI on top of shadcn-ui
-🛒 Completely custom phone case configurator
-🔑 Authentication using Kinde
-✉️ Beautiful thank-you email after purchase
-✅ Apple-inspired configuration design
-⌨️ 100% written in TypeScript
-🎁 ...much more`,
+    title: "News",
+    description: `Display news organized by category or specialty.
+
+    Attract visitors with fresh and diverse content.
+    
+    Enabling journalists or editors to easily manage content.
+    
+    Improve reader engagement (comments, likes, shares).
+    
+    Generate advertising revenue through views or ads.`,
     image: "/images/projects/webgomaa.png",
     tag: ["All", "FUllStack", "BackEnd", "FrontEnd"],
     gitUrl: "https://wa.me/201024754252",
-    previewUrl: "",
+    previewUrl: "#contact",
   },
   {
     id: 2,
@@ -35,7 +30,7 @@ const projectsData = [
     image: "/images/projects/dc11.png",
     tag: ["All", "FUllStack", "BackEnd", "FrontEnd"],
     gitUrl: "https://wa.me/201024754252",
-    previewUrl: "https://breadit-reddit-clone-mu.vercel.app",
+    previewUrl: "#contact",
   },
   {
     id: 3,
@@ -75,7 +70,7 @@ const projectsData = [
     image: "/images/projects/caseCobra.png",
     tag: ["All", "FUllStack", "BackEnd", "FrontEnd"],
     gitUrl: "https://wa.me/201024754252",
-    previewUrl: "",
+    previewUrl: "#contact",
   },
   {
     id: 2,
@@ -93,7 +88,7 @@ const projectsData = [
     image: "/images/projects/breaddit.png",
     tag: ["All", "FUllStack", "BackEnd", "FrontEnd"],
     gitUrl: "https://wa.me/201024754252",
-    previewUrl: "https://breadit-reddit-clone-mu.vercel.app",
+    previewUrl: "#contact",
   },
   {
     id: 3,
