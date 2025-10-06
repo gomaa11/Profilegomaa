@@ -1,9 +1,13 @@
 "use client";
 import React, { useState } from "react";
-import GithubIcon from "../../../public/github-icon.svg";
-import Whatsapp from "../../../public/whatsapp.svg";
-import { Facebook } from "lucide-react";
-import { Instagram } from "lucide-react";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaWhatsapp,
+  FaGithub,
+  FaTiktok,
+  FaPhoneAlt,
+} from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -57,22 +61,59 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
-          <a href="https://github.com/gomaa11">
-            <Image src={GithubIcon} alt="Github Icon" />
+        <div className="flex gap-4">
+          {/* Facebook */}
+          <a
+            href="https://www.facebook.com/gomaa252"
+            target="_blank"
+            className="border border-white p-2 rounded-md hover:bg-white hover:text-black transition"
+          >
+            <FaFacebookF className="w-5 h-5" />
           </a>
 
-          <a href="https://wa.me/201024754252">
-            <Image src={Whatsapp} alt="Whatsapp Icon" />
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/gomaa_552/"
+            target="_blank"
+            className="border border-white p-2 rounded-md hover:bg-white hover:text-black transition"
+          >
+            <FaInstagram className="w-5 h-5" />
           </a>
-          <a href="https://www.facebook.com/gomaa252">
-            <Facebook size={52} />
+
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/201024754252"
+            target="_blank"
+            className="border border-white p-2 rounded-md hover:bg-white hover:text-black transition"
+          >
+            <FaWhatsapp className="w-5 h-5" />
           </a>
-          <a href="https://www.instagram.com/gomaa_552/">
-            <Instagram size={52} />
+
+          {/* GitHub */}
+          <a
+            href="https://github.com/gomaa11"
+            target="_blank"
+            className="border border-white p-2 rounded-md hover:bg-white hover:text-black transition"
+          >
+            <FaGithub className="w-5 h-5" />
+          </a>
+
+          {/* TikTok */}
+          <a
+            href="https://www.tiktok.com/@eng_gomaa_"
+            target="_blank"
+            className="border border-white p-2 rounded-md hover:bg-white hover:text-black transition"
+          >
+            <FaTiktok className="w-5 h-5" />
+          </a>
+          {/* Phone Call */}
+          <a
+            href="tel:+201024754252"
+            className="border border-white p-2 rounded-md hover:bg-green-500 hover:text-white transition"
+          >
+            <FaPhoneAlt className="w-5 h-5" />
           </a>
         </div>
-        <div className="text-[#ADB7BE] my-4 text-xl">01024754252</div>
       </div>
       <div>
         {emailSubmitted ? (
