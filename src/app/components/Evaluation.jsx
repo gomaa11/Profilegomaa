@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import * as Icons from "lucide-react";
 
 const RatingCard = () => {
-  const [rating, setRating] = useState(5);
+  const [rating, setRating] = useState(0);
   const [hovered, setHovered] = useState(null);
 
   return (
